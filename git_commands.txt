@@ -1,3 +1,23 @@
 git config --global user.email "email@example.com"
 git reset --hard ffc2c12690ef38430bdb044498f12246295b04fc
 git commit --amend
+
+git init
+git clone URL
+
+git add	/file_path
+git commit -m ""
+git push origin master
+
+git status
+git remote
+
+echo "# others" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/example/others.git
+git push -u origin master
+
+git remote add origin https://github.com/example/others.git
+git push -u origin master
