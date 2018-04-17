@@ -18,6 +18,8 @@ public class InteractionsWithFile {
                 line = br.readLine();
                 if(line == null)
                     break;
+                if(sb.length() != 0) // save new line symbol 
+                 sb.append("\n");
                 sb.append(line);
             } while(true);
 
